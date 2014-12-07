@@ -2,7 +2,7 @@
 
 ####Description
 
-Chroma Cannon is a small game that I program for fun and practice on most programming languages I know. It features a square hero that ventures around the barron landscape in search of other squares to shoot squares at. The fun and square slaughter is almost too much handle! Take frequent breaks or you may pass out from the ludicrous amounts of adventure and excitement.
+Chroma Cannon is a small game that I program for fun and practice on most platforms and programming languages that I learn. It features a square hero that ventures around the barron landscape in search of other squares to shoot squares at. The fun and square slaughter is almost too much handle! Take frequent breaks or you may pass out from the ludicrous amounts of adventure and excitement.
 
 ####Usage
 
