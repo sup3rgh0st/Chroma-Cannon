@@ -1,4 +1,4 @@
-tool_tools.o: d:/devkitPro/template/source/tool_tools.c \
- d:/devkitPro/template/source/tool_tools.h
+tool_tools.o: c:/devkitPro/ChromaCannon/source/tool_tools.c \
+ c:/devkitPro/ChromaCannon/source/tool_tools.h
 
-d:/devkitPro/template/source/tool_tools.h:
+c:/devkitPro/ChromaCannon/source/tool_tools.h:

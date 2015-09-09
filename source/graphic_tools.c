@@ -13,6 +13,9 @@ const int BOTTOM_HEIGHT = 240;
 const int BOTTOM_WIDTH = 320;
 
 void paint_pixel(u8* fb, u16 x, u16 y, u8 red, u8 green, u8 blue) {
+	if ((x>=400) || (x<0)) {return;}
+    if ((y>=240) || (y<0)) {return;}
+	
 	fb[3*(y+x*240)] = blue;
 	fb[3*(y+x*240)+1] = green;
 	fb[3*(y+x*240)+2] = red;
@@ -68,7 +71,6 @@ void draw_char(char letter,int x,int y, u8 r, u8 g, u8 b, u8* fb){
     l = ascii_data[letter][i];
     for (k = 0; k < 8; k++){
       if ((mask >> k) & l){
-        //draw_pixel(k+x,i+y,r,g,b,screen);
 		paint_pixel(fb,k+x,y-i,r,g,b);
       }     
     }
@@ -108,23 +110,6 @@ void draw_char_size(char letter,int size,int x,int y, u8 r, u8 g, u8 b, u8* fb){
     }
   }
 }
-/*
-void draw_point_tri_right(int x1, int y1, int x2, int y2, u8 r, u8 g, u8 b){
-	int i, k_top, k_bottom;
-	double grade = ((y1 + y2)/2 ) / (x2-x1)
-	double slope = y2;
-	k_bottom = y1;
-	
-	for (i = x1, i < x2, i++){
-		for(k_top = y2, k_top > k_bottom, k_top-= grade){
-			k_bottom += grade;
-		}
-	}
-
-}
-
-*/
-
 
 
 

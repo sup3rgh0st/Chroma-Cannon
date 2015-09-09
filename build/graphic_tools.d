@@ -1,85 +1,118 @@
-graphic_tools.o: d:/devkitPro/template/source/graphic_tools.c \
- d:/devkitPro/libctru/include/3ds.h \
- d:/devkitPro/libctru/include/3ds/types.h \
- d:/devkitPro/libctru/include/3ds/svc.h \
- d:/devkitPro/libctru/include/3ds/srv.h \
- d:/devkitPro/libctru/include/3ds/linear.h \
- d:/devkitPro/libctru/include/3ds/os.h \
- d:/devkitPro/libctru/include/3ds/gfx.h \
- d:/devkitPro/libctru/include/3ds/services/gsp.h \
- d:/devkitPro/libctru/include/3ds/services/ac.h \
- d:/devkitPro/libctru/include/3ds/services/apt.h \
- d:/devkitPro/libctru/include/3ds/services/cfgnor.h \
- d:/devkitPro/libctru/include/3ds/services/cfgu.h \
- d:/devkitPro/libctru/include/3ds/services/csnd.h \
- d:/devkitPro/libctru/include/3ds/services/fs.h \
- d:/devkitPro/libctru/include/3ds/services/hid.h \
- d:/devkitPro/libctru/include/3ds/services/irrst.h \
- d:/devkitPro/libctru/include/3ds/services/httpc.h \
- d:/devkitPro/libctru/include/3ds/services/ir.h \
- d:/devkitPro/libctru/include/3ds/services/ptm.h \
- d:/devkitPro/libctru/include/3ds/services/soc.h \
- d:/devkitPro/libctru/include/3ds/services/mic.h \
- d:/devkitPro/libctru/include/3ds/services/mvd.h \
- d:/devkitPro/libctru/include/3ds/gpu/gx.h \
- d:/devkitPro/libctru/include/3ds/gpu/gpu.h \
- d:/devkitPro/libctru/include/3ds/gpu/shdr.h \
- d:/devkitPro/libctru/include/3ds/sdmc.h \
- d:/devkitPro/template/source/graphic_tools.h \
- d:/devkitPro/template/source/ascii64.h
+graphic_tools.o: c:/devkitPro/ChromaCannon/source/graphic_tools.c \
+ c:/devkitPro/libctru/include/3ds.h \
+ c:/devkitPro/libctru/include/3ds/types.h \
+ c:/devkitPro/libctru/include/3ds/svc.h \
+ c:/devkitPro/libctru/include/3ds/srv.h \
+ c:/devkitPro/libctru/include/3ds/linear.h \
+ c:/devkitPro/libctru/include/3ds/vram.h \
+ c:/devkitPro/libctru/include/3ds/os.h \
+ c:/devkitPro/libctru/include/3ds/gfx.h \
+ c:/devkitPro/libctru/include/3ds/services/gsp.h \
+ c:/devkitPro/libctru/include/3ds/console.h \
+ c:/devkitPro/libctru/include/3ds/util/utf.h \
+ c:/devkitPro/libctru/include/3ds/services/ac.h \
+ c:/devkitPro/libctru/include/3ds/services/am.h \
+ c:/devkitPro/libctru/include/3ds/services/apt.h \
+ c:/devkitPro/libctru/include/3ds/services/cfgnor.h \
+ c:/devkitPro/libctru/include/3ds/services/cfgu.h \
+ c:/devkitPro/libctru/include/3ds/services/csnd.h \
+ c:/devkitPro/libctru/include/3ds/services/fs.h \
+ c:/devkitPro/libctru/include/3ds/services/hid.h \
+ c:/devkitPro/libctru/include/3ds/services/irrst.h \
+ c:/devkitPro/libctru/include/3ds/services/httpc.h \
+ c:/devkitPro/libctru/include/3ds/services/ir.h \
+ c:/devkitPro/libctru/include/3ds/services/ns.h \
+ c:/devkitPro/libctru/include/3ds/services/pm.h \
+ c:/devkitPro/libctru/include/3ds/services/ps.h \
+ c:/devkitPro/libctru/include/3ds/services/ptm.h \
+ c:/devkitPro/libctru/include/3ds/services/soc.h \
+ c:/devkitPro/libctru/include/3ds/services/mic.h \
+ c:/devkitPro/libctru/include/3ds/services/mvd.h \
+ c:/devkitPro/libctru/include/3ds/services/qtm.h \
+ c:/devkitPro/libctru/include/3ds/services/hb.h \
+ c:/devkitPro/libctru/include/3ds/gpu/gx.h \
+ c:/devkitPro/libctru/include/3ds/gpu/gpu.h \
+ c:/devkitPro/libctru/include/3ds/gpu/registers.h \
+ c:/devkitPro/libctru/include/3ds/gpu/shbin.h \
+ c:/devkitPro/libctru/include/3ds/gpu/shaderProgram.h \
+ c:/devkitPro/libctru/include/3ds/sdmc.h \
+ c:/devkitPro/ChromaCannon/source/graphic_tools.h \
+ c:/devkitPro/ChromaCannon/source/ascii64.h
 
-d:/devkitPro/libctru/include/3ds.h:
+c:/devkitPro/libctru/include/3ds.h:
 
-d:/devkitPro/libctru/include/3ds/types.h:
+c:/devkitPro/libctru/include/3ds/types.h:
 
-d:/devkitPro/libctru/include/3ds/svc.h:
+c:/devkitPro/libctru/include/3ds/svc.h:
 
-d:/devkitPro/libctru/include/3ds/srv.h:
+c:/devkitPro/libctru/include/3ds/srv.h:
 
-d:/devkitPro/libctru/include/3ds/linear.h:
+c:/devkitPro/libctru/include/3ds/linear.h:
 
-d:/devkitPro/libctru/include/3ds/os.h:
+c:/devkitPro/libctru/include/3ds/vram.h:
 
-d:/devkitPro/libctru/include/3ds/gfx.h:
+c:/devkitPro/libctru/include/3ds/os.h:
 
-d:/devkitPro/libctru/include/3ds/services/gsp.h:
+c:/devkitPro/libctru/include/3ds/gfx.h:
 
-d:/devkitPro/libctru/include/3ds/services/ac.h:
+c:/devkitPro/libctru/include/3ds/services/gsp.h:
 
-d:/devkitPro/libctru/include/3ds/services/apt.h:
+c:/devkitPro/libctru/include/3ds/console.h:
 
-d:/devkitPro/libctru/include/3ds/services/cfgnor.h:
+c:/devkitPro/libctru/include/3ds/util/utf.h:
 
-d:/devkitPro/libctru/include/3ds/services/cfgu.h:
+c:/devkitPro/libctru/include/3ds/services/ac.h:
 
-d:/devkitPro/libctru/include/3ds/services/csnd.h:
+c:/devkitPro/libctru/include/3ds/services/am.h:
 
-d:/devkitPro/libctru/include/3ds/services/fs.h:
+c:/devkitPro/libctru/include/3ds/services/apt.h:
 
-d:/devkitPro/libctru/include/3ds/services/hid.h:
+c:/devkitPro/libctru/include/3ds/services/cfgnor.h:
 
-d:/devkitPro/libctru/include/3ds/services/irrst.h:
+c:/devkitPro/libctru/include/3ds/services/cfgu.h:
 
-d:/devkitPro/libctru/include/3ds/services/httpc.h:
+c:/devkitPro/libctru/include/3ds/services/csnd.h:
 
-d:/devkitPro/libctru/include/3ds/services/ir.h:
+c:/devkitPro/libctru/include/3ds/services/fs.h:
 
-d:/devkitPro/libctru/include/3ds/services/ptm.h:
+c:/devkitPro/libctru/include/3ds/services/hid.h:
 
-d:/devkitPro/libctru/include/3ds/services/soc.h:
+c:/devkitPro/libctru/include/3ds/services/irrst.h:
 
-d:/devkitPro/libctru/include/3ds/services/mic.h:
+c:/devkitPro/libctru/include/3ds/services/httpc.h:
 
-d:/devkitPro/libctru/include/3ds/services/mvd.h:
+c:/devkitPro/libctru/include/3ds/services/ir.h:
 
-d:/devkitPro/libctru/include/3ds/gpu/gx.h:
+c:/devkitPro/libctru/include/3ds/services/ns.h:
 
-d:/devkitPro/libctru/include/3ds/gpu/gpu.h:
+c:/devkitPro/libctru/include/3ds/services/pm.h:
 
-d:/devkitPro/libctru/include/3ds/gpu/shdr.h:
+c:/devkitPro/libctru/include/3ds/services/ps.h:
 
-d:/devkitPro/libctru/include/3ds/sdmc.h:
+c:/devkitPro/libctru/include/3ds/services/ptm.h:
 
-d:/devkitPro/template/source/graphic_tools.h:
+c:/devkitPro/libctru/include/3ds/services/soc.h:
 
-d:/devkitPro/template/source/ascii64.h:
+c:/devkitPro/libctru/include/3ds/services/mic.h:
+
+c:/devkitPro/libctru/include/3ds/services/mvd.h:
+
+c:/devkitPro/libctru/include/3ds/services/qtm.h:
+
+c:/devkitPro/libctru/include/3ds/services/hb.h:
+
+c:/devkitPro/libctru/include/3ds/gpu/gx.h:
+
+c:/devkitPro/libctru/include/3ds/gpu/gpu.h:
+
+c:/devkitPro/libctru/include/3ds/gpu/registers.h:
+
+c:/devkitPro/libctru/include/3ds/gpu/shbin.h:
+
+c:/devkitPro/libctru/include/3ds/gpu/shaderProgram.h:
+
+c:/devkitPro/libctru/include/3ds/sdmc.h:
+
+c:/devkitPro/ChromaCannon/source/graphic_tools.h:
+
+c:/devkitPro/ChromaCannon/source/ascii64.h:
